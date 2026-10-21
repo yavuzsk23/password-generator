@@ -14,6 +14,6 @@ class Program
             password += chars[rnd.Next(chars.Length)];
         }
 
-        Console.WriteLine("Password" + password);
+        Console.WriteLine("Password " + password);
     }
 }
